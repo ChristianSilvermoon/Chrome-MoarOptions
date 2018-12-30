@@ -1,0 +1,26 @@
+{
+	"name": "Moar Options!",
+	"version": "18.12.30",
+	"description": "Adds More Context Menu Options",
+	"manifest_version": 2,
+	"background": {
+		"scripts": [ "js/context-menus.js" ],
+		"persistent": true
+	},
+
+	"permissions": [
+		"contextMenus"
+	],
+
+	"browser_action": {
+		"default_icon": {
+			"16":"img/icon/logo_16.png",
+			"48":"img/icon/logo_48.png"
+		},
+		"default_popup": "ui/popup.html"
+	},
+	"icons": {
+		"16":"img/icon/logo_16.png",
+		"48":"img/icon/logo_48.png"
+	}
+}
